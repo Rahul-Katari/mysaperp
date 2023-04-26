@@ -105,7 +105,7 @@
 }
 
 @media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link  {
+    .navbar-light .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
     }
@@ -161,7 +161,7 @@
         position: relative;
         min-height: 500px;
     }
-    
+
     .header-carousel .owl-carousel-item img {
         position: absolute;
         width: 100%;
@@ -211,7 +211,7 @@
     background: rgba(15, 23, 43, .7);
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
 
@@ -324,27 +324,33 @@
 
 /*-------------- blog page css ------------ */
 .accordion-item:not(:first-of-type) {
-    border-top: 1px solid rgba(0,0,0,0.125);
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
+
 .blog-main .accordion-item {
     margin-bottom: 10px;
 }
-.posting-key-table td, .posting-key-table th {
-    border-width: 1px ;
+
+.posting-key-table td,
+.posting-key-table th {
+    border-width: 1px;
     border-collapse: collapse;
 }
 
 @media (min-width: 768px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 200px;
     }
+
     .h-md-75 {
         height: 75%;
     }
 }
 
 @media (min-width: 992px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 300px;
@@ -458,6 +464,7 @@
     background: #fc740c;
     border-color: #fc740c;
 }
+
 .text-primary {
     color: #fc740c !important;
 }
@@ -466,36 +473,49 @@
     width: 30%;
     height: 50px;
 }
+
 .join-now-btn {
     white-space: nowrap;
 }
+
 .btn-primary:hover {
     background: #fc740c;
 }
+
 .logo-div {
     padding-top: 24px;
 }
+
 .logo-div h2 {
     line-height: 21px;
 }
+
 .logo-div small {
     font-size: 12px;
-    font-weight: bold ;
+    font-weight: bold;
     vertical-align: text-top;
 }
-  
-  .join-now-sticky-div {
+
+.join-now-sticky-div {
     transform: rotate(-90deg);
     position: fixed;
     bottom: 50vh;
     right: -29px;
     z-index: 9;
-  }
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--primary);
+}
 
 @media (max-width: 410px) {
     .navbar-brand {
         margin-right: 0rem;
     }
+
     .logo-div small {
         font-size: 10px;
     }
